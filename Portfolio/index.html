@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo">BELLA<span>DEV</span></a>
+        <i class="fa-solid fa-bars" id="menu-icon"></i>
+        <nav class="navbar active">
+            <a href="#" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hi, I'm</h3>
+            <h1>Isabella</h1>
+            <h3>And I'm a <span class="multiple-text"></span></h3>
+            <p>I'm passionate about learning and building open-source software that is beneficial to developers and the world at large.
+                I build web apps with a focus on responsive design and accessibility
+            </p>
+            <div class="social-media">
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+            <a href="#" class="btn">Download CV</a>
+        </div>
+        <div class="home-img">
+            <img src="/Portfolio/Assets/profile.JPG" alt="profile-pic">
+        </div>
+    </section>
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="/Portfolio/Assets/profile.JPG" alt="about-img">
+        </div>
+        <div class="about-content">
+            <h2 class="heading">ABOUT <span>ME</span></h2>
+            <h3>Full-Stack Developer</h3>
+            <p>I hold a Bachelor's degree in Computer Science from Atlantic International University where I developed a strong foundation in software engineering principles. My primary front-end skills include proficiency in HTML, CSS, and JavaScript, with expertise in front-end frameworks like React and Redux. On the back-end, I have experience with Node.js, Ruby and Ruby on Rails for building scalable server-side applications. I've also worked with databases such as MS SQL server and PostgreSQL for efficient data storage and retrieval.</p>
+            <a href="#" class="btn">Read more</a>
+
+        </div>
+    </section>
+    <section class="services" id="services">
+        <h2 class="heading">MY <span>SERVICES</span></h2>
+        <div class="services-container">
+            <div class="services-box">
+                <i class="fa-solid fa-desktop"></i>
+                <h3>Front-end Magic</h3>
+                <p>Unleash the visual appeal and interactivity your website deserves. As a full-stack developer, I specialize in creating stunning front-end interfaces using cutting-edge technologies such as HTML5, CSS3, and JavaScript. Your vision guides the design, ensuring a user experience that captivates on every device.</p>
+                <a href="#" class="btn">Read more</a>
+            </div>
+            <div class="services-box">
+                <i class="fa-solid fa-gear"></i>
+                <h3>Robust Back-end Foundation</h3>
+                <p>Empower your website with a resilient and scalable back-end infrastructure. Leveraging my expertise in languages like Python, Node.js, and PHP, I build the engine that powers your digital presence. Security, efficiency, and seamless scalability are at the core of my back-end development philosophy.</p>
+                <a href="#" class="btn">Read more</a>
+            </div>
+            <div class="services-box">
+                <i class="fa-solid fa-code"></i>
+                <h3> Full-stack Integration</h3>
+                <p>Bringing it all together for a cohesive and comprehensive web solution. As a full-stack developer, I orchestrate the harmonious integration of front-end aesthetics with back-end functionality. From database management to server-side scripting, your website is not just a sum of its parts but a seamless, unified experience.</p>
+                <a href="#" class="btn">Read more</a>
+            </div>
+        </div>
+    </section>
+    <section class="portfolio" id="portfolio">
+        <h2 class="heading">Latest <span>Projects</span></h2>
+        <div class="portfolio-container">
+            <div class="portfolio-box">
+                <img src="/Portfolio/Assets/math-magician.PNG" alt="portfolio-1">
+                <div class="portfolio-layer">
+                    <h4>A calculator app</h4>
+                    <a href=""><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>    
+            </div>
+            <div class="portfolio-box">
+                <img src="/Portfolio/Assets/music.PNG" alt="portfolio-1">
+                <div class="portfolio-layer">
+                    <h4>A Musical Concert Website</h4>
+                    <a href=""><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>    
+            </div>
+            <div class="portfolio-box">
+                <img src="/Portfolio/Assets/budgetapp1.PNG" alt="portfolio-1">
+                <div class="portfolio-layer">
+                    <h4>A Budget App</h4>
+                    <a href=""><i class="fa-solid fa-up-right-from-square"></i></a>>
+                </div>    
+            </div>
+            <div class="portfolio-box">
+                <img src="/Portfolio/Assets/space-traveller.PNG" alt="portfolio-1">
+                <div class="portfolio-layer">
+                    <h4>A Space Traveler's App</h4>
+                    <a href=""><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>    
+            </div>
+        </div>
+    </section>
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me</span></h2>
+
+        <form action="#">
+            <div class="input-box">
+                <input type="text" placeholder="Full Name">
+                <input type="text" placeholder="email@example.com">
+            </div>
+            <div class="input-box">
+                <input type="number" placeholder="Mobile Number">
+                <input type="text" placeholder="Subject">
+            </div>
+            <textarea name="msg" id="msg" cols="30" rows="10" placeholder="Your Message"></textarea>
+            <input type="submit" value="Send Message" class="btn">
+        </form>
+    </section>
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy 2024 Isabella Otoo | All Rights Reserved</p>
+        </div>
+    </footer>
+    <!-------SCROLL REVEAL------->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-------TYPED JS------->
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+    <!--------MAIN JS----->
+    <script src="index.js"></script>
+    
+</body>
+</html>
