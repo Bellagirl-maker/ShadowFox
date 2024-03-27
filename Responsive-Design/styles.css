@@ -20,7 +20,7 @@ header {
 }
 
 header.nav-one {
-    background-image: url("Assets/hero-image-top.png");
+    background-image: url("/Responsive-Design/Assets/hero-image-top.png");
     background-size: cover;
     background-position: center;
     height: 100vh;
@@ -93,7 +93,7 @@ header.nav-one {
 }
 
 .history {
-    background-image: url("/Assets/history-bg.png");
+    background-image: url("/Responsive-Design/Assets/history-bg.png");
     background-size: cover;
     background-position: center;
     
@@ -131,7 +131,7 @@ p.climb-text {
 }
 
 .schedule-section {
-    background: url(/Assets/schedule.png);
+    background: url("/Responsive-Design/Assets/schedule.png");
     background-size: cover;
     background-position: center;
 }
