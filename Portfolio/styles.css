@@ -54,6 +54,7 @@ section {
     color: var(--text-color);
     font-weight: 700;
     cursor: pointer;
+    padding-left: 2rem;
 }
 
 .navbar a {
