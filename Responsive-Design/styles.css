@@ -319,7 +319,7 @@ p.climb-text {
     .navbar {
         padding: 1rem; 
         display: flex;
-        justify-content: center; /* Center items horizontally */
+        justify-content: center; 
         align-items: center; /* Align items vertically */
     }
 
