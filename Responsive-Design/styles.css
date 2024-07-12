@@ -320,13 +320,9 @@ p.climb-text {
         padding: 1rem; 
         display: flex;
         justify-content: center; 
-        align-items: center; /* Align items vertically */
+        align-items: center; 
     }
 
-    .logo-nav {
-        display: flex;
-        align-items: center; /* Align items vertically */
-    }
 
     .logo {
         margin-right: 1rem; /* Add margin to the right of the logo */
