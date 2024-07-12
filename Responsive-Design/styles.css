@@ -325,12 +325,12 @@ p.climb-text {
 
 
     .logo {
-        margin-right: 1rem; /* Add margin to the right of the logo */
+        margin-right: 1rem; 
     }
 
     .nav-links {
         display: flex;
-        align-items: center; /* Align items vertically */
+        align-items: center; 
         margin-left: 1rem; /* Add spacing between logo and nav links */
     }
 
